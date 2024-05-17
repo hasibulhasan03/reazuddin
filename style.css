@@ -8,6 +8,14 @@ body{
     background: #f2f2f2;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
